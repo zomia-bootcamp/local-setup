@@ -1,4 +1,4 @@
-# Installfest
+# Local Environment Setup
 
 - [x] [Github and Initial Setup](github.md)
 - [x] [Git](git.md)
@@ -7,10 +7,6 @@
 - [x] [Rosetta Terminal (macOS only)](rosetta_terminal.md)
 - [x] [Homebrew](homebrew.md)
 - [x] [Node](node.md)
-- [x] [Python](python.md)
-- [x] [PostgreSQL](postgres.md)
-- [x] [Django](django.md)
-- [x] [MongoDB](mongodb.md)
 - [ ] **VSCode**
 - [ ] [Chrome](chrome.md)
 
