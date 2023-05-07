@@ -1,4 +1,4 @@
-# Installfest
+# Local Environment Setup
 
 - [x] [Github and Initial Setup](github.md)
 - [x] [Git](git.md)
@@ -7,10 +7,6 @@
 - [ ] **Rosetta Terminal (macOS only)**
 - [ ] [Homebrew](homebrew.md)
 - [ ] [Node](node.md)
-- [ ] [Python](python.md)
-- [ ] [PostgreSQL](postgres.md)
-- [ ] [Django](django.md)
-- [ ] [MongoDB](mongodb.md)
 - [ ] [VSCode](vscode.md)
 - [ ] [Chrome](chrome.md)
 
@@ -39,6 +35,28 @@ If you see `arm64` in response, continue with the steps in the section below.
 
 1. Open Finder and navigate to `Applications -> Utilities`
 2. Right-click on the Terminal app and choose `Duplicate`
+
+*Help! I can't find the `Duplicate` option*
+<details>
+<summary>macOS</summary>
+
+- Run the following command in your terminal:
+
+```arch
+arch #=&gt; arm64
+env &#x2F;usr&#x2F;bin&#x2F;arch -x86_64 &#x2F;bin&#x2F;zsh --login
+arch #=&gt; i386
+```
+- Then, run: 
+
+```sh
+uname -m
+```
+
+If you see `x86_64` in response, do not run the steps in the following section, and [Continue With Installfest](homebrew.md). 
+
+</details>
+  
 3. Rename your newly duplicated Terminal app `Rosetta-Terminal`
 4. Right-click the `Rosetta-Terminal` app and click on `Get Info`
 5. Select the option to `Open using Rosetta`
@@ -47,5 +65,6 @@ For the rest of Installfest and this program, you will use the `Rosetta-Terminal
 program instead of your normal terminal. 
 
 ----
+
 
 [Continue With Installfest](homebrew.md)
