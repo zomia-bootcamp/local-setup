@@ -1,4 +1,4 @@
-# Installfest
+# Local Environment Setup
 
 - [x] [Github and Initial Setup](github.md)
 - [x] [Git](git.md)
@@ -7,10 +7,6 @@
 - [x] [Rosetta Terminal (macOS only)](rosetta_terminal.md)
 - [x] [Homebrew](homebrew.md)
 - [ ] **Node**
-- [ ] [Python](python.md)
-- [ ] [PostgreSQL](postgres.md)
-- [ ] [Django](django.md)
-- [ ] [MongoDB](mongodb.md)
 - [ ] [VSCode](vscode.md)
 - [ ] [Chrome](chrome.md)
 
@@ -30,7 +26,7 @@ between them for different projects.
 scripts/nvm.sh
 ```
 
-**Restart your terminal (close it; not just the window! Then reopen it and `cd` back into `sei/installfest`)**
+**Restart your terminal (close it; not just the window! Then reopen it and `cd` back into `Desktop/local-invironment`)**
   - On macOS, this can be done with the keyboard shortcut (&#8984; + Q)
   - On Linux this can be done with the keyboard shortcut (CTRL + D)
 
@@ -43,7 +39,7 @@ Run the following command in your terminal:
 scripts/nvm.sh node
 ```
 
-**AGAIN, Restart your terminal and navigate back to the installfest directory.**
+**AGAIN, Restart your terminal and navigate back to the local-invironment directory.**
 
 ### NPM Packages
 Now, we will use Node's associated package manager, `npm`, to download and install some Node
@@ -69,4 +65,4 @@ v16.2.0
 
 ----
 
-[Continue With Installfest](python.md)
+[Continue With Installfest](vscode.md)
