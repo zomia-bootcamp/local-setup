@@ -1,4 +1,4 @@
-# Installfest
+# Local Environment Setup
 
 - [x] [Github and Initial Setup](github.md)
 - [ ] **Git**
@@ -6,11 +6,7 @@
 - [ ] [Command Line Tools - Xcode (macOS only)](command_line_tools.md)
 - [ ] [Rosetta Terminal (macOS only)](rosetta_terminal.md)
 - [ ] [Homebrew](homebrew.md)
-- [ ] [Node](node.md)
-- [ ] [Python](python.md)
-- [ ] [PostgreSQL](postgres.md)
-- [ ] [Django](django.md)
-- [ ] [MongoDB](mongodb.md)
+- [ ] [Node](node.md) 
 - [ ] [VSCode](vscode.md)
 - [ ] [Chrome](chrome.md)
 
@@ -29,9 +25,9 @@ Run the command below in your terminal.
 
 The script will prompt you for some information
 
-1.  Provide your GitHub (not GitHub Enterprise) username
-2.  Provide your GitHub (not GitHub Enterprise) email (email you signed up for your account with)
-3.  When prompted, log into GitHub.com (not GitHub Enterprise) and go to [https://github.com/settings/ssh](https://github.com/settings/ssh)
+1.  Provide your GitHub username
+2.  Provide your GitHub email (email you signed up for your account with)
+3.  When prompted, log into GitHub.com and go to [https://github.com/settings/ssh](https://github.com/settings/ssh)
 
 4. Click the `New SSH key` button at the top right of the page
 
@@ -71,8 +67,6 @@ The script will prompt you for some information
     Hi <your_username>! You\'ve successfully authenticated, but GitHub does not provide shell access.
     ```
 
-9.   Next, log into git.generalassemb.ly, go to [https://git.generalassemb.ly/settings/keys](https://git.generalassemb.ly/settings/keys),
-    and paste in the same SSH key.
 
 **STOP! Make sure you did the final step before moving on.**
 
