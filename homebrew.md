@@ -1,4 +1,4 @@
-# Installfest
+# Local Environment Setup
 
 - [x] [Github and Initial Setup](github.md)
 - [x] [Git](git.md)
@@ -7,10 +7,6 @@
 - [x] [Rosetta Terminal (macOS only)](rosetta_terminal.md)
 - [ ] **Homebrew**
 - [ ] [Node](node.md)
-- [ ] [Python](python.md)
-- [ ] [PostgreSQL](postgres.md)
-- [ ] [Django](django.md)
-- [ ] [MongoDB](mongodb.md)
 - [ ] [VSCode](vscode.md)
 - [ ] [Chrome](chrome.md)
 
@@ -53,7 +49,7 @@ If you see a message similar to the one below, you are all set to continue! If
 not, reach out to one of the instructors to get help.
 
 ```sh
-Homebrew 3.1.1
+Homebrew 4.0.16
 ```
 
 ----
