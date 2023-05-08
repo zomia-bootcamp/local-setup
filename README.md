@@ -1,10 +1,10 @@
 # Local Environment Setup
 
-Follow these instructions to set up your laptop for work in SEI. If you've previously set up a development environment on your computer, you may wish to skip some of these steps; do not do so without first checking with an consultant!
+Follow the instructions below to set up your laptop for work in this program. If you've previously set up a development environment on your computer, you may choose to skip some steps. However, please consult with a consultant before doing so.
 
-If at any point you are unsure of whether you have done something correctly, ask a consultant. It's important in many cases that we do these steps in order. In general, if you receive no output, the command has executed successfully. (No news is good news.) If you receive output in your terminal that you didn't expect, please notify a consultant.
+If you are uncertain about any step or need assistance, don't hesitate to ask a consultant. It's important to follow these steps in order. When executing a command, if you don't see any output, it means the command has successfully executed. No output is good news. If you encounter unexpected output in your terminal, please inform a consultant.
 
-**The goal of this is not for you to fully understand everything that is being set up on your computer or what all of these tools do!** You should be focused on following along and completing the instructions. If you have any specific questions about anything you do today, we will be happy to answer after Installfest is complete. 
+**The purpose of this setup is not for you to fully comprehend everything that is being installed or the functionality of each tool!** Your focus should be on following the instructions and completing the tasks. If you have any specific questions about the process, feel free to ask after the completion of the Installfest.
 
 
 Setup | Description
