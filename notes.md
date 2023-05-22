@@ -8,6 +8,26 @@ Be sure to show developers how to fork and clone on the projector. Refer to [FAQ
 
 Here is a list of common issues encountered during installfest
 
+### Node issues
+**Problem** the script installs nvm but when checking the nvm version, the command is not found
+
+**Solution** run the following script
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+```
+
+and
+
+```
+source ~/.bashrc
+```
+
+then run `nvm --version` to verify the instalation was successful.
+
+install node `nvm install 16.2.0`
+check `node --version`
+
+
 ### PATH issues
 **Problem** Using default version of Node (not the ones installed through homebrew with nvm)
 
